@@ -1,0 +1,73 @@
+#menu {
+	display: flex;
+}
+#menu a {
+	margin-right: 5px;
+	padding: 10px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #225832;
+	background-color: rgb(24, 68, 44);
+}
+#menu a:hover {
+	color: rgb(33, 97, 49);
+	border: 1px solid rgb(40, 99, 48);
+	background-color: #F5F6FA;
+}
+#menu a:hover, #menu a.active {
+	color: rgb(30, 90, 60);
+	border: 1px solid rgb(29, 95, 43);
+	background-color: #F5F6FA;
+}
+
+#me { 
+	display: grid;
+    margin-top: 20px;
+    margin-right: 500px;
+}
+#me a {
+	margin-right: 5px;
+    
+	padding: 5px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #225832;
+	background-color: rgb(24, 68, 44);
+}
+#me a:hover {
+	color: rgb(33, 97, 49);
+	border: 1px solid rgb(40, 99, 48);
+	background-color: #F5F6FA;
+}
+#me a:hover, #menu a.active {
+	color: rgb(30, 90, 60);
+	border: 1px solid rgb(29, 95, 43);
+	background-color: #F5F6FA;
+}
+
+
+#mu {
+	display: flex;
+    margin-top: 40px;
+    
+}
+#mu a { 
+	padding: 5px;
+	font: 15px Arial;
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #225832;
+	background-color: rgb(24, 68, 44);
+}
+#mu a:hover {
+	color: rgb(33, 97, 49);
+	border: 1px solid rgb(40, 99, 48);
+	background-color: #F5F6FA;
+}
+#mu a:hover, #menu a.active {
+	color: rgb(30, 90, 60);
+	border: 1px solid rgb(29, 95, 43);
+	background-color: #F5F6FA;
+}
